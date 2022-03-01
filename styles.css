@@ -12,44 +12,45 @@ body {
   background: #292b2f;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .test {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: yellow;
+  letter-spacing: 17px;
+  padding-bottom: 0px;
+  border: 1px solid white;
+  color: #fff;
   position: relative;
-  margin-left: -50px;
+  margin-left: 20px;
 }
 
 .test2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: yellow;
-  position: relative;
-  margin-left: 128px;
-  margin-top: 20px auto;
+  letter-spacing: 17px;
+  margin-left: 125px;
+
+  padding-bottom: 3px;
 }
 
 .resume {
-  width: 770px;
-  height: 895px;
+  width: 800px;
+  height: 925px;
+
   background: rgba(239, 255, 15, 0.479);
   margin: 5px auto;
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
+
 .left {
   background: #292b2f;
   width: 250px;
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
 .right {
@@ -62,10 +63,10 @@ a {
 }
 
 .left .img_holder img {
-  width: 70%;
-  height: 180px;
+  width: 80%;
+  height: 200px;
   border-radius: 3%;
-  margin-left: 20px;
+  margin-left: 15px;
   flex-basis: 60%;
 }
 
@@ -79,7 +80,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 5px;
   padding-bottom: 3px;
-  color: yellow;
+  color: rgba(239, 255, 15, 0.993);
   position: relative;
   text-align: center;
   margin-bottom: 10px;
@@ -101,7 +102,6 @@ a {
 
 .contact .li_wrap {
   display: flex;
-
   align-items: center;
   width: 100%;
   margin-bottom: 15px;
@@ -111,12 +111,12 @@ a {
   width: 50px;
   height: 50px;
   background: #292b2f;
-
-  border-radius: 5px;
+  border: 2px solid yellow;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .contact .li_wrap .text {
@@ -153,6 +153,7 @@ a {
 .hobbies .li_wrap {
   width: 70px;
   height: 70px;
+  margin-bottom: 10px;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -162,11 +163,17 @@ a {
 
 .skills .li_wrap {
   background: #292b2f;
+  border: 2px solid yellow;
+  padding: 10px 10px;
 }
 
 .skills .li_wrap .text,
 .hobbies .li_wrap .text {
   margin-top: 1px;
+}
+
+.skills .li_wrap {
+  border: 2px solid yellow;
 }
 
 .skills .li_wrap .icon,
@@ -183,6 +190,10 @@ a {
   color: #292b2f;
 }
 
+.hobbies .li_wrap {
+  border: 2px solid yellow;
+}
+
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text {
   color: #fff;
@@ -196,7 +207,9 @@ a {
 .hobbies .li_wrap:hover .text {
   color: #292b2f;
 }
-
+a {
+  text-decoration: none;
+}
 .header {
   background: #292b2f;
   padding: 25px 0px;
@@ -205,7 +218,7 @@ a {
 }
 
 .header .name {
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 35px;
@@ -215,17 +228,15 @@ a {
 
 .header .role {
   margin-top: 5px;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 25px;
   text-align: center;
-  color: #fff;
 }
 
 .header .about {
   margin-top: 3px;
   line-height: 20px;
   text-align: center;
-  color: #fff;
 }
 
 .right_inner {
@@ -234,7 +245,7 @@ a {
 }
 
 .right_inner .education {
-  margin-top: 3px;
+  margin-top: 25px;
   margin-bottom: 1px;
 }
 
@@ -249,10 +260,6 @@ a {
 }
 .date {
   font-weight: bold;
-}
-
-.info {
-  margin-top: 10px;
 }
 
 .right_inner .li_wrap .info {
@@ -289,7 +296,7 @@ a {
   left: 0;
   width: 10px;
   height: 10px;
-  background: #292b2f;
+  background: yellow;
   border-radius: 70%;
 }
 
@@ -300,5 +307,5 @@ a {
   left: 4px;
   width: 2px;
   height: 90%;
-  background: #292b2f;
+  background: yellow;
 }
