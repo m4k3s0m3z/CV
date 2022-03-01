@@ -8,6 +8,9 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.text a {
+  text-transform: none;
+}
 body {
   background: #292b2f;
 }
